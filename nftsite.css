@@ -1,0 +1,107 @@
+body{
+    font-size: 16px;
+    color: #2b283a;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+header{
+    background-color: #5f29a3;
+    padding: 45px 0;
+}
+.container{
+    width: 650px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 36px;
+    color: #d0aaff;
+    margin: 0;
+}
+h2{
+    margin-top: 0px;
+}
+h3{
+    font-size: 20px;
+    color: whitesmoke;
+    margin: 0;
+}
+p{
+    line-height: 23px;
+}
+.buy{
+    color: whitesmoke;
+    background-color: #5f29a3;
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.buy:hover{
+    background-color:#f3e885 ;
+}
+.buy:active{
+    color: #2b283a;
+}
+.more-info{
+    color: #5f29a3;
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none; 
+    background-color: #f0e0ff;
+}
+
+.about-us, .contact{
+    background-color: whitesmoke;
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none; 
+    color: #5f29a3;
+}
+.about-us, 
+.contact, 
+.more-info,
+.buy{
+    display: inline-block;
+    margin: 10px;
+}
+    
+section{
+    padding: 45px 0;
+}
+.second-section{
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+.image-two{
+    width: 300px;
+    border-radius: 4.6px;
+}
+.image-two{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+a{
+    color: #ef5839;
+    text-decoration: underline dotted;
+
+}
+a:hover{
+    color:#d4b44c
+}
+a:active{
+    color:#d4b44c
+}
+.sneeker-image{
+    width: 100%;
+    
+}
+footer{
+    padding: 45px 0;
+    color: #5f29a3;  
+    font-size: 16px;
+    text-align: center;
+}
